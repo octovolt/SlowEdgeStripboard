@@ -23,10 +23,10 @@ Here is the block diagram:
 To explain, the strategy is: 
 
 1. Create a posterized image with a comparator. That is, the resulting image is either fully white or fully black, based on a threshold.
-2. Split the posterized image signal into two, and then invert one of them. Now we have the inverse of the posterized image.
-3. Run both signals through a high pass filter. This creates fuzzy lines, fading to the right, where the edges of the posterized images were previously. That is, when the image goes suddenly from white to black or black to white, the high pass filter retains this transition, but eliminates everything else. The high pass filter will create fuzzy lines for the leading, left edge of the posterized image, or the trailing, right edge of the posterized image, depending on whether the image is the original posterized image or the inverse.
+2. Split the posterized image signal into two separate signals, and then invert one of them. Now we have the inverse of the posterized image.
+3. Run both signals through high pass filters. This creates fuzzy lines, fading to the right, where the edges of the posterized images were previously. That is, when the image goes suddenly from white to black or black to white, the high pass filter retains this transition, but eliminates everything else. The high pass filter will create fuzzy lines for the leading, left edge of the posterized image, or the trailing, right edge of the posterized image, depending on whether the image is the original posterized image or the inverse.
 4. Run both signals through comparators again. This eliminates any gradation or fuzziness, and only stark lines remain.
-5. Mix the two signals together and send to output.
+5. Mix the two signals together, joining the leading and trailing edges into a complete edge outline, and then send the result to the output.
 
 Thanks
 ---
