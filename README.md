@@ -1,9 +1,9 @@
 SlowEdgeStripboard
 ===
 
-An analog video edge detection Eurorack module laid out on David Haillant's [Eurorack Stripboard](https://www.davidhaillant.com/eurorack-stripboard-1-3/). It works, but building on protoboard or stripboard is not really a great idea unless you are desperate to have something working as soon as possible. Caveat emptor.
+An analog video edge detection circuit as a Eurorack module, laid out on David Haillant's [Eurorack Stripboard](https://www.davidhaillant.com/eurorack-stripboard-1-3/). It works, but building on protoboard or stripboard is not really a great idea unless you are desperate to have something working as soon as possible. Caveat emptor.
 
-This is merely a prototype version of Slow Edge, which is the slow version of Edgelord. If you can't find these projects in my GitHub repos, please know they will be published soon.
+This is merely a prototype version of Slow Edge, which is the slow version of Edgelord. If you can't find these more formal, polished Eurorack PCB projects in the Octovolt GitHub repos, please know they will be published soon.
 
 How does it work?
 ---
