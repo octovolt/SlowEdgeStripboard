@@ -1,7 +1,9 @@
 SlowEdgeStripboard
 ===
 
-An analog video edge detection circuit as a Eurorack module, laid out on David Haillant's [Eurorack Stripboard](https://www.davidhaillant.com/eurorack-stripboard-1-3/). It works, but building on protoboard or stripboard is not really a great idea unless you are desperate to have something working as soon as possible. Caveat emptor.
+An analog video edge detection circuit as a Eurorack module, laid out on David Haillant's [Eurorack Stripboard](https://www.davidhaillant.com/eurorack-stripboard-1-3/). 
+
+It works, but building on protoboard or stripboard is not really a great idea unless you are desperate to have something working as soon as possible. Caveat emptor.
 
 Also, please note: this circuit is designed to work with 0-1v RGB analog video signals, not video standards like NTSC composite video, PAL, or SECAM.
 
