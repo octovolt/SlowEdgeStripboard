@@ -33,7 +33,7 @@ To explain, the strategy is:
 Why is it called Slow Edge?
 ---
 
-This circuit, like the [two_comparator_effect]() that inspired it, uses the LM339 quad comparator. This is a great, cheap, compact, readily available comparator chip, but unfortunately it's a little bit too slow for accuracy in video circuits. With the LM339, due to its 1.3 microsecond response time, the resulting image is offset very slightly to the right. For better accuracy, we should be using a comparator with a response time below 83 nanoseconds. While Slow Edge is cool, cheap and matches the output of the [two_comparator_effect](https://github.com/cyberboy666/two_comparator_effect), its sister project, called Edgelord, uses a faster comparator and will matcn both standard analog video signals and 0-1v RGB signals more accurately.
+This circuit, like the [two_comparator_effect]() that inspired it, uses the LM339 quad comparator. This is a great, cheap, compact, readily available comparator chip, but unfortunately it's a little bit too slow for accuracy in video circuits. With the LM339, due to its 1.3 microsecond response time, the resulting image is offset very slightly to the right. For better accuracy, we should be using a comparator with a response time below 83 nanoseconds. While Slow Edge is cool, cheap and matches the output of the [two_comparator_effect](https://github.com/cyberboy666/two_comparator_effect), its sister project, called Edgelord, uses a faster comparator and will matcn analog video signals more accurately.
 
 Thanks
 ---
